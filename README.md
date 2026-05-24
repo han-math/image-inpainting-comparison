@@ -1,6 +1,6 @@
 # 图像填充方法对比：regionfill / Exemplar / Pyramid / SD Inpainting
 
-本仓库为中山大学 2025–2026 学年某课程第五次小作业的代码与实验结果。在四张测试图像（`bricks`、`crayon_paint`、`fingerprint256`、`white_house`）上比较了四种图像填充方法：
+本仓库为中山大学 2026 学年《数字图像处理》课程第五次小作业的代码与实验结果。我们在四张测试图像（`bricks`、`crayon_paint`、`fingerprint256`、`white_house`）上比较了四种图像填充方法：
 
 1. **MATLAB `regionfill`** —— 基于 Laplace 方程的边界插值；
 2. **MATLAB `inpaintExemplar`** —— Criminisi 等人提出的范例块修复（Region Filling by Exemplar-Based Image Inpainting）；
@@ -41,7 +41,7 @@ pip install torch torchvision diffusers transformers accelerate safetensors pill
 
 ### 重要：先改硬编码路径
 
-为方便交作业评审，三份 MATLAB 脚本里写的是作者本机路径（`/Users/xiaohan/Downloads/第五次小作业/...`）。复现前请把以下文件**顶部的 `input_dir` / `output_dir` 等绝对路径**改为你本机仓库的实际路径：
+为方便交作业评审，三份 MATLAB 脚本里写的是作者本机路径（`/Users/xiaohan/Downloads/第五次小作业/...`）。复现前请把以下文件**顶部的 `input_dir` / `output_dir` 等绝对路径**改为您本机仓库的实际路径：
 
 - `run_regionfill.m`
 - `run_exemplar.m`
