@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.log
+*.listing
+*.out
+*.synctex.gz
+*.toc
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Trial outputs from SD pipeline (only the final results are kept under results_sd_inpaint*/)
+results_sd_inpaint*/trials/
+
+# Backup files
+*.bak
+*~
+
+# Excluded from public repository (kept locally for grading submission)
+report.pdf
+report.tex
+comparison_white_house.png
+comparison_all/
+results_sd_inpaint/
+make_comparison_*.m
+run_sd_inpaint.py
+run_sd_inpaint_gpu.py
